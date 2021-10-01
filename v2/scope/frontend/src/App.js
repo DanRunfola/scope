@@ -1,6 +1,7 @@
 import sample from "./videos/city.mp4";
 import "./App.css";
 import SignUp from "./components/SignUp";
+import Sourcing from "./components/Sourcing";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -81,12 +82,20 @@ function App() {
                             >
                                 Data
                             </Button>
-                            <Button
-                                style={{ backgroundColor: "transparent" }}
-                                color="inherit"
+                            <Link
+                                to="/sourcing"
+                                style={{ textDecoration: "none" }}
                             >
-                                Sourcing
-                            </Button>
+                                <Button
+                                    style={{
+                                        backgroundColor: "transparent",
+                                        color: "#fff",
+                                    }}
+                                    // color="inherit"
+                                >
+                                    Sourcing
+                                </Button>
+                            </Link>
                             <Link
                                 to="/signup"
                                 style={{ textDecoration: "none" }}
@@ -129,6 +138,11 @@ function App() {
                 <Switch>
                     <Route path="/signup">
                         <SignUp />
+                    </Route>
+                </Switch>
+                <Switch>
+                    <Route path="/sourcing">
+                        <Sourcing />
                     </Route>
                 </Switch>
             </Router>
