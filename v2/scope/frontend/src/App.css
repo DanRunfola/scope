@@ -1,0 +1,10 @@
+#background-video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    float: left;
+    top: 0;
+    padding: none;
+    position: fixed; /*optional depending on what you want to do in your app */
+    z-index: -1;
+}
