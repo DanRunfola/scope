@@ -1,0 +1,18 @@
+[
+    {
+        "start_date": "20200915000000",
+        "end_date": "20201225000000",
+        "primary": "russia",
+        "secondary": ["africa"],
+        "tertiary": ["education"],
+        "maxrecords": 2
+    },
+    {
+        "start_date": "20190712000000",
+        "end_date": "20191022000000",
+        "primary": "crimea",
+        "secondary": ["ukraine"],
+        "tertiary": ["conflict"],
+        "maxrecords": 2
+    }
+]

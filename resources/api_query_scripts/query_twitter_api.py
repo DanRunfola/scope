@@ -1,12 +1,8 @@
 import tweepy as tw
 import re
-import random
 import requests
 import datetime
-import csv
 import os
-
-os.system("pip3 install tweepy")
 
 #import pymysql
 
@@ -124,7 +120,7 @@ def twitter_search(args):
     primary = args['primary']
     secondary = args['secondary']
 
-    n = 100
+    n = 5
     lines = []
     # api keys, change later after academic twitter dev request
     with open(os.path.join(os.getcwd(), 'api.txt')) as f:
