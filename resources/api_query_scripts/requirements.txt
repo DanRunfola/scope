@@ -1,6 +1,1 @@
 tweepy
-re
-requests
-datetime
-os
-bs4
