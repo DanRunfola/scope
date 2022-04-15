@@ -1,9 +1,0 @@
-host:
-mysql.scopedata.org
-database:
-scopesql
-user:
-scopesql
-password:
-fY7Ukl52UI
-

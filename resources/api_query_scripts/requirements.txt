@@ -1,5 +1,4 @@
 tweepy
-json
 re
 requests
 datetime

@@ -7,8 +7,6 @@ import time
 import os
 import mysql.connector
 
-import json
-
 # Queries both gdelt and twitter with one set of arguments
 # ARGUMENTS MUST BE IN THE FOLLOWING FORMAT:
 # {
